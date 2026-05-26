@@ -1,0 +1,26 @@
+[
+    {
+        "rollno": 1,
+        "name": "Nan",
+        "age": 20,
+        "course": "ca"
+    },
+    {
+        "rollno": 2,
+        "name": "Udit",
+        "age": 21,
+        "course": "BCA"
+    },
+    {
+        "rollno": 5,
+        "name": "Lewis",
+        "age": 41,
+        "course": "F1"
+    },
+    {
+        "rollno": 6,
+        "name": "Max",
+        "age": 34,
+        "course": "F1"
+    }
+]

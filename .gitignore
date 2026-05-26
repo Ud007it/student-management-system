@@ -1,0 +1,6 @@
+# Ignore Python cache folders
+__pycache__/
+*.pyc
+
+# Ignore backup databases
+*_students_data.json
