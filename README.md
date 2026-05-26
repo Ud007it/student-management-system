@@ -8,7 +8,8 @@ A robust, terminal-based CRUD application built entirely in Python. This project
 * **Corrupted File Protection:** Automatically detects broken JSON files and creates safe backups.
 * **Input Sanitization:** Forces Title Case for names and UPPERCASE for courses.
 * **Modular Design:** Clean separation of UI, logic, and utility functions.
-
+* **Use of AI:** Leveraged AI as a pair-programming partner to help design the ANSI color formatting in the terminal, and to help me troubleshoot and understand complex bugs as I learn.
+  
 ## 📂 Project Structure
 ```text
 student_management_system/
