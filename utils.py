@@ -23,7 +23,8 @@ def load_students():
         return []
     except json.JSONDecodeError:
         if os.path.exists(FILE_NAME):
-            os.rename(FILE_NAME, "students_data_backup.json")
+            os.replace(FILE_NAME, "students_data_backup.json")
+            
         print(f"\n  {C.BOLD}{C.RED}[!] ERROR: Database corrupted. A backup was created.{C.RESET}")
         print(f"  {C.YELLOW}[!] Starting with a fresh database.{C.RESET}\n")
         return []
